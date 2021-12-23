@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <iostream>
+#include <stdlib.h>
+#include <ios>
+using namespace std;
+
+using namespace std;
+
+int main()
+{
+  /*
+  int x, y;
+  char u, w, i;
+  cout << "_______________________________________\n\nOlá, amigo! Neste programa teste, faremos com que as operações matemáticas básicas na linguagem C venham ser destrinchadas e, primeiro, esclarecidas para que vocês tanto possa compreende-la como usa-las em tarefas institucionais. Desde já agradeço a oportunidade de estar aqui lhe ajudando nesta nova etapa de sua vida; que os próximos passos possam lhe contribuir.\n\n";
+  cout << "\nDigite o primero número para ser feito a operação:";
+  cin >> x;
+  cout << "\nDigite o segundo número para ser feito a operação:";
+  cin >> y;
+  cout << "\n—Multiplicação:" << y*x;
+  cout << "\n—Somando:" << y+x;
+  cout << "\n—Dividindo:" << y/x;
+  */
+
+  string nome;
+  string nascimento;
+  string prof;
+  float salario;
+  
+  cout << " Nome: ";
+  cin >> nome;
+  cout << "Data de nascimento: ";
+  cin >> nascimento;
+  cout << "Para qual profissão você está se candidatando: ";
+  cin >> prof;
+  cout << "Salário: ";
+  cin >> salario;
+  
+  cout << "Nome: " << nome << " Data de nascimento: " << nascimento << " - Profissão desejada:" << prof << " - Salário :" <<salario;
+
+  return 0;
+}
